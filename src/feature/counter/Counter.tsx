@@ -1,7 +1,7 @@
 import React from 'react'
 import { useAppDispatch,useAppSelector } from '../../app/hooks'
 import { decrement, increment } from './counterSlice';
-
+import './Counter.css'
 const Counter = () => {
     const dispatch= useAppDispatch();
     const counter=useAppSelector((state)=>state.counter.count)
