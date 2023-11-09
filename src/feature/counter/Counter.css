@@ -1,0 +1,12 @@
+.btndiv{
+margin-right: 40px;
+}
+.counter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 10vh;
+}
